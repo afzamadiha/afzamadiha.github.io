@@ -11,3 +11,7 @@ body{
 .footer {
     background-color: teal;
 }
+
+h1 {
+    color: orange;
+}
