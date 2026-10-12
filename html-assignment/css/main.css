@@ -8,7 +8,7 @@ nav ul {
 }
 
 nav a {
-    text-decoration: purple;
+    text-decoration: none;
     background-color: teal;
     border: 1px solid orange;
     padding: 8px 16px;
