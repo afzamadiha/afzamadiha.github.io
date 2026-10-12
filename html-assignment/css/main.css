@@ -24,3 +24,7 @@ h1 {
   list-style-type: square;
 }
 
+.hobby li:nth-child(odd) {
+    background-color: teal;
+}
+
