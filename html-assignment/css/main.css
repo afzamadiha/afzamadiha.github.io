@@ -17,5 +17,10 @@ h1 {
 }
 
 #my-image {
-  box-shadow: 0 0 2px 1px ;
+  box-shadow: 0 0 2px 1px black;
 }
+
+#hobby-list {
+  list-style-type: square;
+}
+
