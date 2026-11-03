@@ -1,0 +1,134 @@
+
+* {
+        box-sizing: border-box;
+
+}
+
+html{
+    font-size:18 px;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:#b4dfdb;
+    margin:0;
+    padding:0;
+   
+}
+
+
+
+.wrapper{
+    width: 800px;
+    background-color:#d9e8e7;
+    /* center block level element */
+    margin: 0 auto;
+    
+}
+
+ /* aside::before {  */
+    content: "Life of a Starfish";
+    font-weight: bold;
+    display: block;
+    clear: both;
+}
+.prop {
+    text-transform: none;
+    position: absolute;
+    top: -25px;
+    left: 0;
+}
+
+header {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: #d9e8e7; 
+}
+
+header h1 {
+    position:absolute;
+    top: 70%;
+    left: 38%;
+    font-weight:normal;
+}
+
+nav ul { 
+    padding-left: 0;
+    list-style-type: none;
+
+}
+
+nav li {
+        /* change block level property */
+        display: inline-block;
+        width: 260px;
+        /* usually change text the link */
+        font-size: 1.5rem;
+        text-align: center;
+        border-right: 0.5px solid black;
+        color: black;          
+        text-decoration: none;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+.imagepara_container  {
+  
+
+   
+    gap: 20px;
+}
+
+.picture {
+    width: 150px;              
+    height: auto;
+    float:left;  
+    margin-right:15px;
+    margin-bottom:10px;           
+}
+
+.facts_section{
+    margin: 5px 0;
+    padding: 0 5px;
+
+}
+
+.contacts_section{
+    margin:40px auto;
+    padding:0 20px;
+}
+
+
+.form_signup label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+
+}
+
+.form_signup input{
+width: 100%
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing:border-box;
+}
+
+.form_signup textarea{
+width: 100%
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing:border-box;
+}
+
+.form_signup {
+    background-color: azure;
+    padding: 30px;
+    border: 1px solid #d9e8e7;
+    border-radius: 4px;
+
+}
