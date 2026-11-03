@@ -5,7 +5,7 @@
 }
 
 html{
-    font-size:18 px;
+    font-size: 18 px;
 }
 
 body{
@@ -26,7 +26,7 @@ body{
     
 }
 
- /* aside::before {  */
+  aside::before {  
     content: "Life of a Starfish";
     font-weight: bold;
     display: block;
@@ -109,20 +109,20 @@ font-weight: bold;
 
 }
 
-.form_signup input{
-width: 100%
-padding: 10px;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing:border-box;
+.form_signup input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
-.form_signup textarea{
-width: 100%
-padding: 10px;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing:border-box;
+.form_signup textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
 }
 
 .form_signup {
@@ -131,4 +131,12 @@ box-sizing:border-box;
     border: 1px solid #d9e8e7;
     border-radius: 4px;
 
+}
+
+form label{
+    margin-right: 20px;
+    
+}
+footer{
+    text-align:right;
 }
